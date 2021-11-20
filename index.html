@@ -14,10 +14,16 @@
   color: "#FFFFFF",
   height: 300,
   width: 300,
+
+
+  // src: "HEBP1.pdb",          // file to load
+  // script: null,       // script to run
+  // defaultModel: "",   // name or id of a model to be retrieved from a database
+
   script: "load $caffeine",
   use: "HTML5",
   j2sPath: "j2s",
-  serverURL: "php/jsmol.php",
+  serverURL: "https://raw.githubusercontent.com/lorenasandoval88/ProteinModeiling/main/php/jsmol.php",
 };
 
 Jmol.getApplet("myJmol", Info);
